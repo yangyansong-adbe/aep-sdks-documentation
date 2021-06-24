@@ -109,7 +109,6 @@ This method should be called from the Activity onResume method.
 {% endtab %}
 
 {% tab title="iOS — Swift" %}
-
 #### Objective-C
 
 **Syntax**
@@ -136,11 +135,9 @@ If you need to collect additional lifecycle data:
 ```swift
 MobileCore.lifecycleStart(additionalContextData: ["contextDataKey": "contextDataVal"])
 ```
-
 {% endtab %}
 
 {% tab title="iOS — Obj-C" %}
-
 #### Objective-C
 
 **Syntax**
@@ -267,7 +264,6 @@ MobileCore.lifecyclePause();
 {% endtab %}
 
 {% tab title="iOS — Swift" %}
-
 #### Objective-C
 
 **Syntax**
@@ -288,7 +284,6 @@ static func lifecyclePause()
 ```swift
 MobileCore.lifecyclePause()
 ```
-
 {% endtab %}
 
 {% tab title="iOS — Obj-C" %}

@@ -1,6 +1,6 @@
 # Mobile Core
 
-The Mobile Core represents the core Adobe Experience Platform SDK that is required for every app implementation. The core contains a common set of functionality and frameworks, such as  Experience Cloud Identity services, data event hub, Rules Engine, reusable networking, disk access routines, and so on, which are required by all Adobe and third-party extensions. The following sections provide additional information about what is provided in the Mobile Core extension.
+The Mobile Core represents the core Adobe Experience Platform SDK that is required for every app implementation. The core contains a common set of functionality and frameworks, such as Experience Cloud Identity services, data event hub, Rules Engine, reusable networking, disk access routines, and so on, which are required by all Adobe and third-party extensions. The following sections provide additional information about what is provided in the Mobile Core extension.
 
 {% hint style="warning" %}
 As of **April 1, 2020**, Apple will no longer support the UIWebView API. To avoid any issues, ensure that you are using iOS SDK version 2.3.4 or later. For more information about the UIWebView API, see [UIWebView ](https://developer.apple.com/documentation/uikit/uiwebview).

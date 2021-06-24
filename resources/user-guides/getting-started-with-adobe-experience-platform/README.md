@@ -181,9 +181,9 @@ To learn more about the Experience Data Model \(XDM\), Schemas, Datasets and Mix
 
 ### Sample XDM Implementation
 
-See [Sample XDM Implementation]()
+See [Sample XDM Implementation](./)
 
 ### Rules & XDM Events
 
-See [Rules & XDM events]()
+See [Rules & XDM events](./)
 

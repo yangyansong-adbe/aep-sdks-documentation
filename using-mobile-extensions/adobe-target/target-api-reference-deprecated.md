@@ -3,7 +3,7 @@
 ### Using the prefetch APIs
 
 {% hint style="warning" %}
-The `prefetchContent` API signature has changed. We recommend that you  use parameters encapsulated in `TargetParameters`.
+The `prefetchContent` API signature has changed. We recommend that you use parameters encapsulated in `TargetParameters`.
 {% endhint %}
 
 {% tabs %}

@@ -6,7 +6,7 @@
 
 ### Download the sample application
 
-**Note:** This step is not required if you already implemented the steps described in [Sample XDM Implementation]()
+**Note:** This step is not required if you already implemented the steps described in [Sample XDM Implementation](rules-and-xdm-events.md)
 
 {% tabs %}
 {% tab title="Android" %}

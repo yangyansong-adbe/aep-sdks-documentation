@@ -147,7 +147,6 @@ MobileCore.trackAction("loginClicked", additionalContextData);
 {% endtab %}
 
 {% tab title="iOS — Swift" %}
-
 **Objective-C**
 
 ### trackAction
@@ -186,7 +185,6 @@ static func track(action: String?, data: [String: Any]?)
 ```swift
 MobileCore.track(action: "action name", data: ["key": "value"])
 ```
-
 {% endtab %}
 
 {% tab title="iOS — Obj-C" %}
@@ -397,7 +395,6 @@ MobileCore.trackState("homePage", additionalContextData);
 {% endtab %}
 
 {% tab title="iOS — Swift" %}
-
 **Objective-C**
 
 ### trackState
@@ -436,7 +433,6 @@ static func track(state: String?, data: [String: Any]?)
 ```swift
 MobileCore.track(state: "state name", data: ["key": "value"])
 ```
-
 {% endtab %}
 
 {% tab title="iOS — Obj-C" %}
@@ -644,7 +640,6 @@ MobileCore.collectPII(data);
 {% endtab %}
 
 {% tab title="iOS — Swift" %}
-
 **Objective-C**
 
 ### collectPii
@@ -679,7 +674,6 @@ public static func collectPii(_ data: [String: Any])
 ```objectivec
 MobileCore.collectPii(["key1" : "value1","key2" : "value2"]);
 ```
-
 {% endtab %}
 
 {% tab title="iOS — Obj-C" %}
@@ -735,7 +729,6 @@ Coming soon
 {% endtab %}
 
 {% tab title="iOS — Swift" %}
-
 **Objective-C**
 
 This method should be called to support the following use cases:
@@ -784,7 +777,6 @@ public static func collectLaunchInfo(_ userInfo: [String: Any])
 ```swift
 AEPCore.collectLaunchInfo(userInfo)
 ```
-
 {% endtab %}
 
 {% tab title="iOS — Obj-C" %}
@@ -885,7 +877,6 @@ MobileCore.getSdkIdentities(new AdobeCallback<String>() {
 {% endtab %}
 
 {% tab title="iOS — Swift" %}
-
 #### Objective-C
 
 ### getSdkIdentities
@@ -921,11 +912,9 @@ MobileCore.getSdkIdentities { (content, error) in
     // handle completion
 }
 ```
-
 {% endtab %}
 
 {% tab title="iOS — Obj-C" %}
-
 #### Objective-C
 
 ### getSdkIdentities
@@ -1079,7 +1068,6 @@ MobileCore.setLogLevel(LoggingMode.VERBOSE);
 {% endtab %}
 
 {% tab title="iOS — Swift" %}
-
 **Objective C**
 
 #### setLogLevel
@@ -1112,7 +1100,6 @@ public static func setLogLevel(_ level: LogLevel)
 ```swift
 MobileCore.setLogLevel(.trace)
 ```
-
 {% endtab %}
 
 {% tab title="iOS — Obj-C" %}

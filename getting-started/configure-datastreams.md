@@ -12,7 +12,7 @@ The Datastreams tool is available to customers on the _allow list_ regardless wh
 Users will require _Develop_ permissions in Experience Platform Launch. See the [User Permissions](https://docs.adobe.com/content/help/en/launch/using/reference/admin/user-permissions.html) article in the Experience Platform Launch documentation for more details.
 {% endhint %}
 
-### What is a datastream?
+## What is a datastream?
 
 A datastream is a configured instance of the Edge Network that contains settings for your Adobe solutions and services. This configuration ensures that incoming data to the Edge Network is routed to Adobe Experience Platform and Adobe Experience Cloud solutions & services appropriately.
 

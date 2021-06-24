@@ -2,7 +2,7 @@
 
 ## Swift Developer Preview
 
-The Adobe Experience Platform Mobile SDK will soon be available in Swift as an initial, beta release. 
+The Adobe Experience Platform Mobile SDK will soon be available in Swift as an initial, beta release.
 
 [Sign up](https://forms.microsoft.com/Pages/ResponsePage.aspx?id=Wht7-jR7h0OUrtLBeN7O4UJN9zAhIEhJr3PBfyMf9wdUQTI2S0pMVEVYS1k3UUNJVDNDWlRUTFk4Qi4u) for a free developer preview.
 
@@ -78,7 +78,7 @@ For a complete list of supported platforms, please see [Latest SDK Versions](htt
 
 {% tabs %}
 {% tab title="Android" %}
-The SDK uses the cache and shared preferences at these locations: 
+The SDK uses the cache and shared preferences at these locations:
 
 data/data/your.app.package/cache
 

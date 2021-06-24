@@ -238,13 +238,13 @@ pod install
 
 ### 2. Add initialization code
 
-Next you'll need to import SDK libraries into your project and register them for initialization. Extensions are registered with Mobile Core so that they can dispatch and listen for events. 
+Next you'll need to import SDK libraries into your project and register them for initialization. Extensions are registered with Mobile Core so that they can dispatch and listen for events.
 
 {% hint style="danger" %}
 Extension registration is **mandatory**. Attempting to make extension-specific API calls without doing so will lead to undefined behavior.
 {% endhint %}
 
-The following code snippets demonstrate how you may import and register the Mobile Core and Profile extensions. You may also see, for reference, Identity, Lifecycle, Signal, Profile, and other extensions imported and registered. 
+The following code snippets demonstrate how you may import and register the Mobile Core and Profile extensions. You may also see, for reference, Identity, Lifecycle, Signal, Profile, and other extensions imported and registered.
 
 {% tabs %}
 {% tab title="Android" %}
@@ -571,9 +571,9 @@ public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompa
 
 ### 3. Ensure app permissions \(Android-only\)
 
-The SDK requires standard [network connection](https://developer.android.com/training/basics/network-ops/connecting) permissions in your manifest to send data, collect cellular provider, and record offline tracking calls. 
+The SDK requires standard [network connection](https://developer.android.com/training/basics/network-ops/connecting) permissions in your manifest to send data, collect cellular provider, and record offline tracking calls.
 
-For Android, the SDK requires standard network connection permissions in your manifest to send data, collect cellular provider, and record offline tracking calls. 
+For Android, the SDK requires standard network connection permissions in your manifest to send data, collect cellular provider, and record offline tracking calls.
 
 To enable these permissions, add the following lines to your `AndroidManifest.xml` file, located in your app's application project directory:
 

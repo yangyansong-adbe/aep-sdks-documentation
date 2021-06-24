@@ -28,7 +28,7 @@ To learn more about Project Griffon see: [Project Griffon setup](../beta/project
 
 ## Next Steps
 
-Once you have added, initialized, and validated the Experience Platform SDK for a base implementation — you can extend SDK functionality by adding in other extensions. 
+Once you have added, initialized, and validated the Experience Platform SDK for a base implementation — you can extend SDK functionality by adding in other extensions.
 
 To get started, see the **MOBILE FOUNDATIONS** and **EXPERIENCE CLOUD** sections in the left pane.
 

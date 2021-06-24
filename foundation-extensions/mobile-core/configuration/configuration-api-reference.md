@@ -96,7 +96,6 @@ MobileCore.configureWithAppId("1423ae38-8385-8963-8693-28375403491d");
 {% endtab %}
 
 {% tab title="iOS — Swift" %}
-
 #### Syntax
 
 ```swift
@@ -116,11 +115,9 @@ static func configureWith(appId: String)
 ```swift
 MobileCore.configureWith(appId: "1423ae38-8385-8963-8693-28375403491d")
 ```
-
 {% endtab %}
 
 {% tab title="iOS — Obj-C" %}
-
 #### Syntax
 
 ```objectivec
@@ -215,7 +212,6 @@ MobileCore.updateConfiguration(data);
 {% endtab %}
 
 {% tab title="iOS — Swift" %}
-
 ### updateConfiguration
 
 #### Syntax
@@ -240,7 +236,6 @@ NSDictionary *updatedConfig = @{@"global.privacy":@"optedout"};
 let updatedConfig = ["global.privacy":"optedout"]
 MobileCore.updateConfigurationWith(configDict: updatedConfig)
 ```
-
 {% endtab %}
 
 {% tab title="iOS — Obj-C" %}
@@ -360,7 +355,6 @@ MobileCore.configureWithFileInPath("absolute/path/to/exampleJSONfile.json");
 {% endtab %}
 
 {% tab title="iOS — Swift" %}
-
 #### Syntax
 
 ```swift
@@ -382,11 +376,9 @@ NSString *filePath = [[NSBundle mainBundle] pathForResource:@"ExampleJSONFile"of
 let filePath = Bundle.main.path(forResource: "ExampleJSONFile", ofType: "json")
 MobileCore.configureWith(filePath: filePath)
 ```
-
 {% endtab %}
 
 {% tab title="iOS — Obj-C" %}
-
 #### Syntax
 
 ```objectivec
